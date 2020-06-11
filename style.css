@@ -9,3 +9,31 @@
   flex: 50%;
   padding: 0 4px;
 }
+
+.bottomnav {
+    background-color: #C0C0C0;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottomnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.bottomnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.bottomnav a.active {
+  border-bottom: 3px solid red;
+}
