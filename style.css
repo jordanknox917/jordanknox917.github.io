@@ -1,3 +1,5 @@
+/* stuff for rows/columns */
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -6,8 +8,11 @@
 
 .column {
   flex: 50%;
+  flex-wrap: wrap;
   padding: 0 4px;
 }
+
+/* stuff for bottom bar */
 
 .bottomnav {
     background-color: #C0C0C0;
@@ -29,10 +34,49 @@
     border-bottom: 3px solid transparent;
 }
 
+.bottomnav img {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+}
+
 .bottomnav a:hover {
   border-bottom: 3px solid red;
 }
 
 .bottomnav a.active {
   border-bottom: 3px solid red;
+}
+
+/* stuff for dragging */
+
+#container {
+    width: 100%;
+    height: 800px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 7px;
+    touch-action: none;
+}
+
+#item {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(245, 230, 99);
+    border: 10px solid rgba(136, 136, 136, .5);
+    border-radius: 50%;
+    touch-action: none;
+    user-select: none;
+}
+
+#item:active {
+    background-color: rgba(168, 218, 220, 1.00);
+}
+
+#item:hover {
+    cursor: pointer;
+    border-width: 20px;
 }
