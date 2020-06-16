@@ -27,6 +27,10 @@
     padding: 14px 16px;
 }
 
+.bottomnav img:active {
+    opacity: 50%;
+}
+
 .bottomnav a:hover {
   border-bottom: 3px solid red;
 }
