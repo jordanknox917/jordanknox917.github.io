@@ -77,6 +77,7 @@ function setTranslate(xPos, yPos, el) {
 ///     Modal Javascript    ///
 
 // Get the modal
+var initialModal = document.getElementById("initial-modal");
 var aboutMeModal = document.getElementById("aboutMe-modal");
 var blogModal = document.getElementById("blog-modal");
 var contactMeModal = document.getElementById("contactMe-modal");
@@ -99,6 +100,7 @@ var referencesbtn = document.getElementById("references-button");
 var linksbtn = document.getElementById("links-button");
 
 // Get the <span> element that closes the modal
+var initialSpan = document.getElementsByClassName("initialClose")[0];
 var aboutMeSpan = document.getElementsByClassName("aboutMeClose")[0];
 var blogSpan = document.getElementsByClassName("blogClose")[0];
 var contactMeSpan = document.getElementsByClassName("contactMeClose")[0];
@@ -139,6 +141,9 @@ linksbtn.ondblclick = function () {
 }
 
 // When the user clicks on <span> (x), close the modal
+initialSpan.onclick = function () {
+    initialModal.style.display = "none";
+}
 aboutMeSpan.onclick = function () {
     aboutMeModal.style.display = "none";
 }
