@@ -67,6 +67,7 @@ html, body {
 .aboutMe {
     background-color: transparent;
     border: none;
+    outline: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/aboutMe.png?raw=true");
@@ -75,6 +76,7 @@ html, body {
 .blog {
     background-color: transparent;
     border: none;
+    outline: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/blog.png?raw=true");
@@ -83,6 +85,7 @@ html, body {
 .contactMe {
     background-color: transparent;
     border: none;
+    outline: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/contactMe.png?raw=true");
@@ -91,6 +94,7 @@ html, body {
 .film {
     background-color: transparent;
     border: none;
+    outline: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/film.png?raw=true");
@@ -99,6 +103,7 @@ html, body {
 .resume {
     background-color: transparent;
     border: none;
+    outline: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/resume.png?raw=true");
@@ -107,6 +112,7 @@ html, body {
 .projects {
     background-color: transparent;
     border: none;
+    outline: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/projects.png?raw=true");
@@ -115,6 +121,7 @@ html, body {
 .photos {
     background-color: transparent;
     border: none;
+    outline: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/photos.png?raw=true");
@@ -123,6 +130,7 @@ html, body {
 .references {
     background-color: transparent;
     border: none;
+    outline: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/references.png?raw=true");
@@ -131,6 +139,7 @@ html, body {
 .links {
     background-color: transparent;
     border: none;
+    outline: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/links.png?raw=true");
