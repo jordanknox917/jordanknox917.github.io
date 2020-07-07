@@ -65,6 +65,8 @@ html, body {
 }
 
 .aboutMe {
+    background-color: #128080;
+    border: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/aboutMe.png?raw=true");
