@@ -77,27 +77,34 @@ function setTranslate(xPos, yPos, el) {
 ///     Modal Javascript    ///
 
 // Get the modal
-var modal = document.getElementById("aboutMe-modal");
+var aboutMeModal = document.getElementById("aboutMe-modal");
+var blogModal = document.getElementById("blog-modal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("aboutMe-button");
+var aboutMebtn = document.getElementById("aboutMe-button");
+var blogbtn = document.getElementById("blog-button");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var aboutMeSpan = document.getElementsByClassName("aboutMeClose")[0];
+var blogSpan = document.getElementsByClassName("blogClose")[0];
 
 // When the user clicks on the button, open the modal
-btn.onclick = function () {
-    modal.style.display = "block";
+aboutMebtn.ondblclick = function () {
+    aboutMeModal.style.display = "block";
 }
-
+blogbtn.ondblclick = function () {
+    blogModal.style.display = "block";
+}
 // When the user clicks on <span> (x), close the modal
-span.onclick = function () {
-    modal.style.display = "none";
+aboutMeSpan.onclick = function () {
+    aboutMeModal.style.display = "none";
 }
-
+blogSpan.onclick = function () {
+    blogModal.style.display = "none";
+}
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
+// window.onclick = function (event) {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
+// }

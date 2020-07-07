@@ -176,15 +176,37 @@ html, body {
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
-.close {
+.blog-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.aboutMeClose {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.blogClose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.aboutMeClose:hover,
+.aboutMeClose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.blogClose:hover,
+.blogClose:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
