@@ -184,6 +184,62 @@ html, body {
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
+.contactMe-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.film-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.resume-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.projects-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.photos-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.references-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.links-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
 .aboutMeClose {
   color: #aaa;
   float: right;
@@ -192,6 +248,55 @@ html, body {
 }
 
 .blogClose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.contactMeClose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.filmClose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.resumeClose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.projectsClose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.photosClose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.referencesClose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.linksClose {
   color: #aaa;
   float: right;
   font-size: 28px;
@@ -207,6 +312,55 @@ html, body {
 
 .blogClose:hover,
 .blogClose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contactMeClose:hover,
+.contactMeClose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.filmClose:hover,
+.filmClose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.resumeClose:hover,
+.resumeClose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.projectsClose:hover,
+.projectsClose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.photosClose:hover,
+.photosClose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.referencesClose:hover,
+.referencesClose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.linksClose:hover,
+.linksClose:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
