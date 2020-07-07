@@ -65,7 +65,7 @@ html, body {
 }
 
 .aboutMe {
-    background-color: #128080;
+    background-color: transparent;
     border: none;
     width: 75px;
     height: 75px;
@@ -73,48 +73,64 @@ html, body {
 }
 
 .blog {
+    background-color: transparent;
+    border: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/blog.png?raw=true");
 }
 
 .contactMe {
+    background-color: transparent;
+    border: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/contactMe.png?raw=true");
 }
 
 .film {
+    background-color: transparent;
+    border: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/film.png?raw=true");
 }
 
 .resume {
+    background-color: transparent;
+    border: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/resume.png?raw=true");
 }
 
 .projects {
+    background-color: transparent;
+    border: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/projects.png?raw=true");
 }
 
 .photos {
+    background-color: transparent;
+    border: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/photos.png?raw=true");
 }
 
 .references {
+    background-color: transparent;
+    border: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/references.png?raw=true");
 }
 
 .links {
+    background-color: transparent;
+    border: none;
     width: 75px;
     height: 75px;
     background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/links.png?raw=true");
