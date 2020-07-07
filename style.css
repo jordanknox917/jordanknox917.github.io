@@ -2,6 +2,7 @@
 /* stuff for bottom bar */
 
 .bottomnav {
+    border-top: solid white;
     background-color: #C0C0C0;
     overflow: hidden;
     position: absolute;
@@ -22,9 +23,11 @@
 }
 
 .bottomnav img {
+    width: 5%;
+    height: auto;
     float: left;
     display: block;
-    padding: 14px 16px;
+    padding: 2px 1px;
 }
 
 .bottomnav img:active {
