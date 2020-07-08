@@ -29,7 +29,8 @@ html, body {
     outline: none;
     width: 75px;
     height: 75px;
-    background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/aboutMe.png?raw=true");
+    background-image: url("images/aboutMe.png");
+    /* background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/aboutMe.png?raw=true"); */
 }
 
 .blog {
@@ -38,7 +39,8 @@ html, body {
     outline: none;
     width: 75px;
     height: 75px;
-    background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/blog.png?raw=true");
+    background-image: url("images/blog.png");
+    /* background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/blog.png?raw=true"); */
 }
 
 .contactMe {
@@ -47,7 +49,8 @@ html, body {
     outline: none;
     width: 75px;
     height: 75px;
-    background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/contactMe.png?raw=true");
+    background-image: url("images/contactMe.png");
+    /* background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/contactMe.png?raw=true"); */
 }
 
 .film {
@@ -56,7 +59,8 @@ html, body {
     outline: none;
     width: 75px;
     height: 75px;
-    background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/film.png?raw=true");
+    background-image: url("images/film.png");
+    /* background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/film.png?raw=true"); */
 }
 
 .resume {
@@ -65,7 +69,8 @@ html, body {
     outline: none;
     width: 75px;
     height: 75px;
-    background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/resume.png?raw=true");
+    background-image: url("images/resume.png");
+    /* background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/resume.png?raw=true"); */
 }
 
 .projects {
@@ -74,7 +79,8 @@ html, body {
     outline: none;
     width: 75px;
     height: 75px;
-    background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/projects.png?raw=true");
+    background-image: url("images/projects.png");
+    /* background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/projects.png?raw=true"); */
 }
 
 .photos {
@@ -83,7 +89,8 @@ html, body {
     outline: none;
     width: 75px;
     height: 75px;
-    background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/photos.png?raw=true");
+    background-image: url("images/photos.png");
+    /* background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/photos.png?raw=true"); */
 }
 
 .references {
@@ -92,7 +99,8 @@ html, body {
     outline: none;
     width: 75px;
     height: 75px;
-    background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/references.png?raw=true");
+    background-image: url("images/references.png");
+    /* background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/references.png?raw=true"); */
 }
 
 .links {
@@ -101,7 +109,8 @@ html, body {
     outline: none;
     width: 75px;
     height: 75px;
-    background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/links.png?raw=true");
+    background-image: url("images/links.png");
+    /* background-image: url("https://github.com/jordanknox917/jordanknox917.github.io/blob/master/images/links.png?raw=true"); */
 }
 
 .item:active {
