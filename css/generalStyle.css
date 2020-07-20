@@ -46,6 +46,7 @@ body {
   float: left;
   width: 33%;
   height: 33%;
+  padding: 2px;
   /* overflow: scroll; */
 }
 
